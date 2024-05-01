@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["es6", "dom"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "esModuleInterop":true,
+    "outDir"    : "dist",
+  },
+  "include": [
+    "server.ts"
+],
+"exclude": [
+    "node_modules"
+]
+
+}
